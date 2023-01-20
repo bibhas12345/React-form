@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function FormSec() {
   return (
-    <div>
+    <div className='w-full '>
       <form>
       <div className='mt-4 ml-2 px-4 '>
         <label className='font-semibold'>Name</label>
@@ -55,9 +55,9 @@ export default function FormSec() {
       <div className='mt-1 p-1 px-4 flex flex-col '><label  className=' font-bold'>Any comments</label>
       <input  type='textarea' className='w-full bg-gray-200/30 h-10 shadow  shadow-gray-400' />
       </div>
-      <div className='flex justify-center m-3'>
-        <button type='reset' className='bg-blue-400 hover:bg-green-200   px-3 mr-3 rounded-2xl'>Reset</button>
-        <button type='submit' className='bg-blue-400 hover:bg-green-200   px-3 ml-3 p-2 rounded-2xl'>Submit</button>
+      <div className='flex justify-center m-3 py-9'>
+        <button type='reset' className='bg-blue-400 hover:bg-green-200   px-5 mr-3 rounded-2xl'>Reset</button>
+        <button type='submit' className='bg-blue-400 hover:bg-green-200   px-4 ml-3 p-2 rounded-2xl'>Submit</button>
       </div>
       </form>
     </div>
