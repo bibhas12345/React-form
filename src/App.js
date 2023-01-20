@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import NewForm from './NewForm';
+
+
+
 import NavBar from './NavBar';
 import FormSec from './FormSec';
 
